@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Exercise 4 - CSS Manipulation</title>
+        <script type="text/javascript"
+                src="E4.js">
+        </script>
+    </head>
+    <body>
+        <p id="mainParagraph">
+            This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text.
+            This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text.
+            This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text.
+            This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text.
+            This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text. This is full of dummy text.
+        </p>
+
+        <section id="borderSettings">
+            <label for="bordSettings">Border Settings:</label>
+            <input type="text" id="redBordVal" placeholder="Red Value (0-255)" />
+            <input type="text" id="greenBordVal" placeholder="Green Value (0-255)" />
+            <input type="text" id="blueBordVal" placeholder="Blue Value (0-255)" />
+            <input type="text" id="widthVal" placeholder="Border Width" />
+        </section>
+
+        <section id="backgroundSettings">
+            <label for="backSettings">Background Settings:</label>
+            <input type="text" id="redBackVal" placeholder="Red Value (0-255)" />
+            <input type="text" id="greenBackVal" placeholder="Green Value (0-255)" />
+            <input type="text" id="blueBackVal" placeholder="Blue Value (0-255)" />
+        </section>
+
+        <input type="button" onclick="update()" name="update" value="Update Settings">
+        
+    </body>
+</html>
